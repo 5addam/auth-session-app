@@ -1,0 +1,12 @@
+extends layout 
+block content 
+    h1=title
+
+    form(method='POST' action='')
+        label(for='uname') Username: 
+        input(type='text' name='uname' placeholder='Enter Username' required='true')
+        br
+        label(for='pw') Password: 
+        input(type='password' name='pw' required='true')
+        br
+        button(type="submit") Submit
